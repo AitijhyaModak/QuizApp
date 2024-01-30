@@ -1,0 +1,34 @@
+.normalOption:hover {
+  background-color: rgb(254, 186, 137);
+  transform: translateX(0.6rem);
+}
+
+.neutralAnswer {
+  background-color: rgb(255, 204, 74);
+}
+.neutralAnswer:hover {
+  transform: none;
+  background-color: rgb(255, 204, 74);
+}
+.wrongAnswer {
+  background-color: rgb(244, 93, 93);
+}
+.wrongAnswer:hover {
+  transform: none;
+  background-color: rgb(244, 93, 93);
+}
+
+.correctAnswer {
+  background-color: rgb(111, 242, 111);
+}
+.correctAnswer:hover {
+  transform: none;
+  background-color: rgb(111, 242, 111);
+}
+
+.clicked {
+  transform: translateX(0.6rem);
+}
+.clicked:hover {
+  transform: translateX(0.6rem);
+}
